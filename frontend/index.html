@@ -7,6 +7,10 @@
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- PocketBase UMD client (served from unpkg). Keeps frontend independent from npm pocketbase package versions. -->
+    <script src="https://unpkg.com/pocketbase@0.13.2/dist/pocketbase.umd.js"></script>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
